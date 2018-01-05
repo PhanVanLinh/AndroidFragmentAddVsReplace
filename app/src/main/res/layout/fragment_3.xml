@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a0dddd"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment 3"
+            android:textSize="40dp"
+            />
+
+        <Button
+            android:id="@+id/button_go_to_fragment_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to fragment 4"
+            />
+
+        <Button
+            android:id="@+id/button_pop_without_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pop"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_fragment_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</RelativeLayout>
